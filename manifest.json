@@ -1,7 +1,7 @@
 {
   "vendor": "choyer",
   "name": "store-theme-choyer",
-  "version": "14.0.3",
+  "version": "14.0.4",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
