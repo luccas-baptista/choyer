@@ -1,0 +1,25 @@
+:global(.vtex-sticky-layout-0-x-container--novo-sticky) .logoContainer .logoImage {
+  width: 100%;
+}
+:global(.vtex-sticky-layout-0-x-container--novo-sticky) .logoContainer {
+  padding-right: 0;
+}
+:global(.vtex-sticky-layout-0-x-container--novo-sticky) .logoContainer {
+  display: none;
+}
+:global(.vtex-sticky-layout-0-x-wrapper--stuck) .logoContainer {
+  display: block;
+}
+.portalWrapper--search-elevage .flex.justify-end {
+  left: 0 !important;
+}
+:global(.vtex-sticky-layout-0-x-container--novo-sticky) .popper--conteudo-lupa .absolute {
+  position: relative !important;
+}
+
+:global(.vtex-sticky-layout-0-x-container--novo-sticky) .portalWrapper--search-elevage {
+  display: none;
+}
+.flex.justify-end {
+  left: 0;
+}

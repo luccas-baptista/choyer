@@ -1,0 +1,308 @@
+{
+
+"experimental__visibility-layout#mosaico-meio": {
+  "title": "Mosaico Meio - Modelo 1",
+  "children": [
+    "flex-layout.row#mosaico-meio"
+  ]
+},
+
+"flex-layout.row#mosaico-meio": {
+    "title": "Mosaico Meio",
+    "children": [
+      "flex-layout.col#left-mosaico",
+      "flex-layout.col#right-mosaico"
+    ],
+    "props": {
+      "blockClass": "mosaico-meio-wrapper"
+    }
+  },
+
+  "flex-layout.col#left-mosaico": {
+    "children": [
+      "image#img-mosaico-left"
+    ],
+    "props": {
+      "blockClass": "imagem-mosaico-maquina"
+    }
+  },
+
+  "image#img-mosaico-left": {
+    "props": {
+      "src": "assets/imgs/mosaico-choyer/banner-puppy.png",
+      "blockClass": "semefeito",
+      "link": {
+        "url": "/perfume-baby-300ml-para-pet-puppy-choyer/p"
+      }
+    }
+  },
+
+  "flex-layout.col#right-mosaico": {
+    "children": [
+      "flex-layout.row#linha1-topo",
+      "flex-layout.row#linha2-bottom"
+    ],
+    "props": {
+      "blockClass": "mosaico-right-wrapper"
+    }
+  },
+
+  "flex-layout.row#linha1-topo": {
+    "children":[
+      "flex-layout.col#linha1-col1-topo",
+      "flex-layout.col#linha1-col2-topo"
+    ],
+    "props": {
+      "blockClass": "linha1-topo"
+    }
+  },
+  "flex-layout.col#linha1-col2-topo": {
+    "children": [
+      "image#mosaico-right-col-2"
+    ]
+  },
+
+  "image#mosaico-right-col-2": {
+    "props": {
+      "src": "assets/imgs/mosaico-choyer/Mosaico_Superior_2_V2.png",
+      "link": {
+        "url": "/perfume-amadeirado-300ml-para-pets-hero-choyer/p"
+      }
+    }
+  },
+
+  "flex-layout.row#linha2-bottom": {
+    "children":[
+      "flex-layout.col#linha2-col1-bottom",
+      "flex-layout.col#linha2-col2-bottom"
+    ],
+    "props": {
+      "blockClass": "linha2-bottom"
+    }
+  },
+
+  "flex-layout.col#linha1-col1-topo": {
+    "children":[
+      "image#img-mosaico-right1"
+    ]
+  },
+
+
+  "flex-layout.col#linha2-col1-bottom": {
+    "children":[
+      "image#img-mosaico-right2"
+    ]
+  },
+
+
+  "image#img-mosaico-right1": {
+    "props": {
+      "src": "assets/imgs/mosaico-choyer/Mosaico_Superior_1_V2.png",
+      "link": {
+        "url": "/perfume-doce-300ml-para-pets-fantasy-choyer/p"
+      }
+    }
+  },
+
+
+
+  "image#img-mosaico-right2": {
+    "props": {
+      "src": "assets/imgs/mosaico-choyer/Mosaico_Superior_3_V2.png",
+      "link": {
+        "url": "/perfume-citrico-300ml-para-pets-fresh-choyer/p"
+      }
+    }
+  },
+
+  "flex-layout.col#linha2-col2-bottom": {
+    "children":[
+      "image#img-mosaico-bottom2"
+    ]
+  },
+
+  "image#img-mosaico-bottom2": {
+    "props": {
+      "src": "assets/imgs/mosaico-choyer/Mosaico_Superior_4_V2.png",
+      "link": {
+        "url": "/desembaracante-pet-300ml-choyer/p"
+      }
+    }
+  },
+
+  "experimental__visibility-layout#mosaico-meio-modelo2": {
+    "title": "Mosaico Meio - Modelo 2",
+    "children": [
+      "flex-layout.row#mosaico-meio-modelo2"
+    ]
+  },
+
+  "flex-layout.row#mosaico-meio-modelo2": {
+      "title": "Mosaico Meio",
+      "children": [
+        "flex-layout.col#left-mosaico-modelo2",
+        "flex-layout.col#right-mosaico-modelo2"
+      ],
+      "props": {
+        "blockClass": ["mosaico-meio-wrapper", "mosaico-meio-modelo2"]
+      }
+    },
+
+    "flex-layout.col#left-mosaico-modelo2": {
+      "children": [
+        "image#img-mosaico-left-modelo2",
+        "image#img-mosaico-left2-modelo2"
+      ],
+      "props": {
+        "blockClass": "imagem-mosaico-left"
+      }
+    },
+
+    "image#img-mosaico-left-modelo2": {
+      "props": {
+        "src": "assets/imgs/mosaico-choyer/hover/banner-intense-blanc-hover-novo.png",
+        "blockClass": "pop-efeito",
+        "link": {
+          "url": "/shampoo-pet-matizador-25l-choyer/p"
+        }
+      }
+    },
+    "image#img-mosaico-left2-modelo2": {
+      "props": {
+        "src": "assets/imgs/mosaico-choyer/hover/banner-macadamia-hover-novo.png",
+        "link": {
+          "url": "/condicionador-pet-reconstrucao-25l-choyer/p"
+        }
+      }
+    },
+
+    "flex-layout.col#right-mosaico-modelo2": {
+      "children": [
+        "image#img-mosaico-right-modelo2",
+        "image#img-mosaico-right2-modelo2"
+      ],
+      "props": {
+        "blockClass": "mosaico-right-wrapper"
+      }
+    },
+
+    "image#img-mosaico-right-modelo2": {
+      "props": {
+        "src": "assets/imgs/mosaico-choyer/hover/banner-black-hover-novo.png",
+        "link": {
+          "url": "/condicionador-pet-reconstrucao-25l-choyer/p"
+        }
+      }
+    },
+    "image#img-mosaico-right2-modelo2": {
+      "props": {
+        "src": "assets/imgs/mosaico-choyer/hover/banner-magnific-hover-novo.png",
+        "blockClass": "ultimoimg",
+        "link": {
+          "url": "/shampoo-pet-pelos-escuros-25l-choyer/p"
+        }
+      }
+    },
+
+
+
+  "experimental__visibility-layout#blog-desk": {
+    "title": "Banner Blog - Desktop",
+    "children": ["flex-layout.row#banner-blog"]
+  },
+
+  "flex-layout.row#banner-blog": {
+    "title": "Banner Blog",
+    "children": [
+      "flex-layout.col#imgblog"
+    ],
+    "props": {
+      "blockClass": "bannerblog"
+    }
+  },
+  "flex-layout.col#imgblog": {
+    "children": [
+      "image#bannerblog"
+    ]
+  },
+  "image#bannerblog": {
+    "props": {
+      "src": "assets/imgs/mosaico-choyer/Banner_Blog_V2.png"
+    }
+  },
+
+  "experimental__visibility-layout#blog-mobile": {
+    "title": "Banner Blog - Mobile",
+    "children": ["flex-layout.row#banner-blogmobile"]
+  },
+
+  "flex-layout.row#banner-blogmobile": {
+    "title": "Banner Blog Mobile",
+    "children": ["image#blogmob"],
+    "props": {
+      "blockClass": "blog__mob"
+    }
+  },
+
+  "image#blogmob": {
+    "props": {
+      "src": "assets/imgs/mosaicos/banner-mob-blog-choyer.png"
+    }
+  },
+
+  "experimental__visibility-layout#bannerfinal-desk": {
+    "title": "Banner Contato - Desktop",
+    "children": ["flex-layout.row#banner-final"]
+  },
+
+
+  "flex-layout.row#banner-final": {
+    "title": "Banner Contato",
+    "children": [
+      "flex-layout.col#imgfinal"
+    ],
+    "props": {
+      "blockClass": "bannerfinal"
+    }
+  },
+
+  "flex-layout.col#imgfinal": {
+    "children": [
+      "image#bannerfinal"
+    ]
+  },
+  "image#bannerfinal": {
+    "props": {
+      "src": "assets/imgs/mosaico-choyer/Banner_FreteGratis_V2.png",
+      "link": {
+        "url": "/regras-de-promocao"
+      }
+    }
+  },
+
+  "experimental__visibility-layout#bannerfinal-mob": {
+    "title": "Banner Contato - Mobile",
+    "children": ["flex-layout.row#banner-finalmobile"]
+  },
+
+  "flex-layout.row#banner-finalmobile": {
+    "title": "Banner Contato Mobile",
+    "children": ["image#bannermob"],
+    "props": {
+      "blockClass": "final__mob"
+    }
+  },
+
+  "image#bannermob": {
+    "props": {
+      "src": "assets/imgs/mosaicos/banner-mob-frete-choyer.png",
+      "link": {
+        "url": "/regras-de-promocao"
+      }
+    }
+  }
+
+
+
+}
+

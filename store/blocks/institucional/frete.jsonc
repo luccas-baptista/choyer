@@ -1,0 +1,40 @@
+{
+  "store.custom#frete": {
+    "children": [
+      "flex-layout.row#wrapper-institucional",
+      "flex-layout.row#wrapper-institucional2"
+    ]
+  },
+
+  "experimental__visibility-layout#wrapper-institucional": {
+    "title": "Linha 1",
+    "children": ["flex-layout.row#wrapper-institucional"]
+  },
+
+  "flex-layout.row#wrapper-institucional": {
+    "children": [
+      "rich-text#title-institucional"
+    ]
+  },
+
+  "rich-text#title-institucional": {
+    "props": {
+      "text": "# Política de Frete",
+      "blockClass": "title-institucional"
+    }
+  },
+
+  "flex-layout.row#wrapper-institucional2": {
+    "children": [
+      "rich-text#text-institucional"
+    ]
+  },
+
+  "rich-text#text-institucional": {
+    "props": {
+      "text": "A",
+      "blockClass": "text-institucional"
+    }
+  }
+
+}

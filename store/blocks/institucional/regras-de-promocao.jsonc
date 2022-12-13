@@ -1,0 +1,40 @@
+{
+  "store.custom#regras-de-promocao": {
+    "children": [
+      "flex-layout.row#wrapper-institucional",
+      "flex-layout.row#wrapper-institucional2"
+    ]
+  },
+
+  "experimental__visibility-layout#wrapper-institucional": {
+    "title": "Linha 1",
+    "children": ["flex-layout.row#wrapper-institucional"]
+  },
+
+  "flex-layout.row#wrapper-institucional": {
+    "children": [
+      "rich-text#title-institucional"
+    ]
+  },
+
+  "rich-text#title-institucional": {
+    "props": {
+      "text": "# Regras de promoção",
+      "blockClass": "title-institucional"
+    }
+  },
+
+  "flex-layout.row#wrapper-institucional2": {
+    "children": [
+      "rich-text#text-institucional"
+    ]
+  },
+
+  "rich-text#text-institucional": {
+    "props": {
+      "text": "-> PROMOÇÃO ''FRETE GRÁTIS''\n\n> Válido para compras acima de R$ 499,00, para as regiões Sul e Sudeste.\n-> Válido para compras acima de R$ 549,00, para a região Centro Oeste.\n-> Válido para compras acima de R$ 649,00, para a região Nordeste.\n-> Válido para compras acima de R$ 749,00, para a região Norte.\nVálido para todos os itens vendidos em nosso site (www.propetz.com.br)       ",
+      "blockClass": "text-institucional"
+    }
+  }
+
+}

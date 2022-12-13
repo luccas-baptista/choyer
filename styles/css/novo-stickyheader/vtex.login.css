@@ -1,0 +1,30 @@
+:global(.vtex-sticky-layout-0-x-container--novo-sticky) .label::after,
+:global(.vtex-sticky-layout-0-x-container--novo-sticky) .label,
+:global(.vtex-sticky-layout-0-x-container--novo-sticky) .profile {
+  display: none;
+}
+:global(.vtex-sticky-layout-0-x-container--novo-sticky) .profileIcon {
+  opacity: 0;
+}
+:global(.vtex-sticky-layout-0-x-container--novo-sticky) .container {
+  position: relative;
+  display: none;
+}
+:global(.vtex-sticky-layout-0-x-wrapper--stuck) .container {
+  display: block;
+}
+:global(.vtex-sticky-layout-0-x-container--novo-sticky) .container::before {
+  content: '';
+  width: 23px;
+  height: 27px;
+  position: absolute;
+  left: 14px;
+  top: 4px;
+  background-image: url(assets/imgs/header/user-login-choyer.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.button.c-action-primary {
+  color: #cfa22b;
+}

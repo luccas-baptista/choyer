@@ -1,0 +1,43 @@
+.container--layout-option {
+  margin-left: 0.3em;
+}
+
+.paragraph--layout-option {
+  margin: 0;
+}
+
+.paragraph--summarySpecificationBullet {
+  margin: 0;
+  line-height: initial;
+  font-size: 1.25rem;
+  line-height: 1.15rem;
+}
+
+/* CATEGORIA */
+.heading--category-name{
+  color: #CFA22B;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.wrapper--category-description{
+  font: normal normal 300 16px/20px Montserrat;
+  color: #292929;
+  text-align: initial;
+  padding: 2rem 0rem 4rem;
+  margin: 0;
+}
+
+.link--category-description, .link--text-institucional {
+  color: #805916;
+}
+
+.wrapper--label-barra-produtos .paragraph {
+  font-size: 14px;
+  margin: 0;
+  color: #292929;
+  margin-left: 0.3rem;
+}
+.paragraph--label-barra-produtos {
+  display: none;
+}

@@ -1,0 +1,13 @@
+:global(.vtex-sticky-layout-0-x-container--novo-sticky) .popper--conteudo-lupa {
+  transform: translate(-814px,53.2px)!important;
+}
+:global(.vtex-sticky-layout-0-x-container--novo-sticky) .container--conteudo-lupa {
+  background: transparent;
+    border: 0;
+}
+:global(.vtex-sticky-layout-0-x-container--novo-sticky) .trigger {
+  display: none;
+}
+:global(.vtex-sticky-layout-0-x-wrapper--stuck) .trigger {
+  display: block;
+}

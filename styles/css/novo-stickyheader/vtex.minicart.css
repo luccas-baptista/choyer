@@ -1,0 +1,11 @@
+:global(.vtex-sticky-layout-0-x-container--novo-sticky) .minicartIconContainer::before,
+:global(.vtex-sticky-layout-0-x-container--novo-sticky) .minicartIconContainer::after {
+  display: none;
+}
+:global(.vtex-sticky-layout-0-x-container--novo-sticky) .openIconContainer {
+  width: 40px;
+  display: none;
+}
+:global(.vtex-sticky-layout-0-x-wrapper--stuck) .openIconContainer {
+  display: block;
+}

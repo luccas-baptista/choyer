@@ -1,0 +1,27 @@
+@media (max-width: 1536px) {
+  .containerNormal {
+    max-width: 430px!important;
+    border-radius: 0;
+  }
+}
+
+.containerNormal {
+  max-width: 430px!important;
+  border-radius: 0;
+}
+.container {
+  border: 0;
+}
+.containerNormal:hover {
+  box-shadow: inherit;
+}
+
+@media (min-width: 1200px) {
+  :global(.vtex-flex-layout-0-x-flexRow--wrapper-content-grid ) .container,
+  :global(.vtex-flex-layout-0-x-flexRow--wrapper-content-grid ) .containerNormal {
+    padding: 1rem 4rem;
+  }
+  .precoPixBoleto {
+    font-size: 26px;
+  }
+}

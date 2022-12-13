@@ -1,0 +1,128 @@
+/* Mosaico Topo */
+.flexCol--imagem-mosaico-left .flexColChild--imagem-mosaico-left:first-child {
+  position: relative;
+  cursor: pointer;
+}
+.flexRow--mosaico-meio-modelo2 .flexCol--imagem-mosaico-left .flexColChild--imagem-mosaico-left:first-child::after {
+  content: '';
+  width: 100%;
+  height: 98%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url(assets/imgs/mosaico-choyer/banner-intense-blanc-normal.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+}
+
+.flexCol--imagem-mosaico-left .flexColChild--imagem-mosaico-left:last-child {
+  position: relative;
+  cursor: pointer;
+}
+
+.flexCol--imagem-mosaico-left .flexColChild--imagem-mosaico-left:first-child:hover::after {
+  visibility: hidden;
+}
+
+.flexCol--mosaico-right-wrapper .flexColChild--mosaico-right-wrapper:first-child {
+  position: relative;
+  cursor: pointer;
+}
+
+.flexRow--mosaico-meio-modelo2 .flexCol--imagem-mosaico-left .flexColChild--imagem-mosaico-left:last-child::after {
+  content: '';
+  width: 100%;
+  height: 98%;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  background-image: url(assets/imgs/mosaico-choyer/banner-macadamia-normal.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+}
+
+.flexCol--mosaico-right-wrapper .flexColChild--mosaico-right-wrapper:last-child {
+  position: relative;
+  cursor: pointer;
+}
+
+.flexCol--imagem-mosaico-left .flexColChild--imagem-mosaico-left:last-child:hover::after {
+  visibility: hidden;
+}
+
+.flexRow--mosaico-meio-modelo2 .flexCol--mosaico-right-wrapper .flexColChild--mosaico-right-wrapper:first-child::after {
+  content: '';
+  width: 100%;
+  height: 98%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url(assets/imgs/mosaico-choyer/banner-black-normal.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+}
+
+.flexCol--mosaico-right-wrapper .flexColChild--mosaico-right-wrapper:first-child:hover::after {
+  visibility: hidden;
+}
+.flexRow--mosaico-meio-modelo2 .flexCol--mosaico-right-wrapper .flexColChild--mosaico-right-wrapper:last-child::after {
+  content: '';
+  width: 100%;
+  height: 98%;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  background-image: url(assets/imgs/mosaico-choyer/banner-magnific.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+}
+.flexCol--mosaico-right-wrapper .flexColChild--mosaico-right-wrapper:last-child:hover::after {
+  visibility: hidden;
+}
+
+.flexColChild--imagem-mosaico-left-m3 {
+  padding-right: 2px;
+}
+
+.flexColChild--imagem-mosaico-left-m3 :global(.vtex-store-components-3-x-imageElement) {
+  height: 100%;
+}
+
+.flexCol--imagem-mosaico-right-m3 :global(.vtex-store-components-3-x-imageElement) {
+  height: 100%;
+}
+
+@media (max-width: 991px) {
+  .flexCol--mosaico-right-wrapper .flexRow--linha1-topo, .flexRow--linha2-bottom {
+    text-align: center;
+  }
+  .flexCol--imagem-mosaico-left, .flexCol--imagem-mosaico2-right {
+    margin-right: 0;
+  }
+  .flexCol--imagem-mosaico-left .flexColChild--imagem-mosaico-left:last-child {
+    margin-bottom: 4px;
+  }
+}
+@media (max-width: 991px) {
+  .flexCol--mosaico-right-wrapper .flexColChild--mosaico-right-wrapper:last-child::after,
+  .flexCol--mosaico-right-wrapper .flexColChild--mosaico-right-wrapper:first-child::after,
+  .flexCol--imagem-mosaico-left .flexColChild--imagem-mosaico-left:last-child::after,
+  .flexCol--imagem-mosaico-left .flexColChild--imagem-mosaico-left:first-child::after,
+  .flexCol--mosaico-principal-right .flexColChild--mosaico-principal-right:last-child::after,
+  .flexCol--mosaico-principal-right .flexColChild--mosaico-principal-right:first-child::after,
+  .flexCol--mosaico-principal-left .flexColChild--mosaico-principal-left::after {
+    display: none;
+  }
+
+  .flexColChild--imagem-mosaico-left :global(.vtex-store-components-3-x-imageElement),
+  .flexColChild--mosaico-right-wrapper :global(.vtex-store-components-3-x-imageElement) {
+    height: auto;
+    width: 100%;
+  }
+
+
+}

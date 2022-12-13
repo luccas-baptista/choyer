@@ -1,0 +1,27 @@
+:global(.vtex-sticky-layout-0-x-wrapper--stuck) .departmentLink {
+  font-size: 12px;
+}
+/*:global(.vtex-sticky-layout-0-x-wrapper--stuck) .departmentList .itemContainer:first-child .departmentLink::after {
+  width: 90px;
+  font-size: 12px;
+}*/
+:global(.vtex-sticky-layout-0-x-wrapper--stuck) .container {
+  margin-right: 1rem;
+}
+:global(.vtex-sticky-layout-0-x-wrapper--stuck) .itemContainer--department:nth-child(7n) {
+  display: none;
+}
+@media (min-width: 1400px) {
+  :global(.vtex-sticky-layout-0-x-wrapper--stuck) .departmentLink {
+    font-size: 14px !important;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1368px) {
+  :global(.vtex-sticky-layout-0-x-wrapper--stuck) .departmentLink {
+    font-size: 12px !important;
+  }
+
+  .itemContainer--department::nth-child(6) {
+    display: none;
+  }
+}

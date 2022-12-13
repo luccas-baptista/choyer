@@ -1,0 +1,48 @@
+.label {
+  color: #fff;
+  text-transform: initial;
+  padding: 0;
+  position: relative;
+  width: 60%;
+  text-align: left;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+
+.label::after {
+  content: 'Perfil';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-weight: 500;
+}
+
+.container :global(.vtex-button:hover),
+.container :global(.vtex-button:focus) {
+  background-color: unset;
+}
+
+.accessCodeOptionBtn :global(.vtex-button) {
+  background-color: #cfa22b;
+  color: #fff;
+  border: unset;
+  text-transform: initial;
+  line-height: 1.4;
+  font-size: 15px;
+}
+
+.emailPasswordOptionBtn :global(.vtex-button) {
+  background-color: #AB3E00;
+  color: #fff;
+  border: unset;
+  text-transform: initial;
+  line-height: 1.4;
+  font-size: 15px;
+}
+
+.container .profile {
+  color: #fff;
+  text-transform: capitalize;
+  margin-right: 1rem;
+}

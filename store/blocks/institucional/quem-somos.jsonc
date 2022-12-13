@@ -1,0 +1,40 @@
+{
+  "store.custom#quem-somos": {
+    "children": [
+      "flex-layout.row#wrapper-institucional",
+      "flex-layout.row#wrapper-institucional2"
+    ]
+  },
+
+  "experimental__visibility-layout#wrapper-institucional": {
+    "title": "Linha 1",
+    "children": ["flex-layout.row#wrapper-institucional"]
+  },
+
+  "flex-layout.row#wrapper-institucional": {
+    "children": [
+      "rich-text#title-institucional"
+    ]
+  },
+
+  "rich-text#title-institucional": {
+    "props": {
+      "text": "# Quem Somos",
+      "blockClass": "title-institucional"
+    }
+  },
+
+  "flex-layout.row#wrapper-institucional2": {
+    "children": [
+      "rich-text#text-institucional"
+    ]
+  },
+
+  "rich-text#text-institucional": {
+    "props": {
+      "text": ".A Choyer é uma empresa composta por pessoas que amam os animais. Eles nos animam, nos dão carinho e estão com a gente nos bons e maus momentos. E nós acreditamos que devemos retribuir todo esse amor e carinho. Queremos ajudar a deixá-los bonitos, perfumados, confortáveis, saudáveis. Com estruturas de alto nível, contamos com modernas instalações industriais, com mais de 4.000 m² de espaço físico entre laboratório de desenvolvimento, controle de qualidade e criação, e departamentos diversos, que permitem criações e aprimoramentos contínuos.\n\nA Propetz é uma empresa Brasileira que buscou no mundo todo, uma tecnologia capaz de cessar as dificuldades do mercado pet. A forma visionária de desenvolver os produtos, nos levou até o topo, acreditamos que mudar rende novas histórias, e para isso se tornar possível, mudamos o propósito a ser construído, com transformações que vão além do esperado para alcançar uma visão moderna desse movimento.\n\nPara usuários que estejam em território brasileiro a política de tratamento será observada de acordo com a Lei Geral de Proteção de Dados Pessoais, número 13.709 de 2018 (LGPD).\n\nOs produtos Propetz vão além da qualidade, e dão espaço para design e tecnologia serem seu ponto chave rumo a facilidade que o groomer encontra no dia a dia. Hoje, a marca conta com uma linha completa para quem deseja montar um pet shop, e isso inclui tesouras e escovas, a máquinas de tosa e adaptadores.\n\nNossa marca trouxe ao mercado, uma nova forma de se comunicar com o consumidor, colocando em prática todo o prestígio que o groomer merece, por desenvolver seu trabalho e cuidar dos pets de forma carinhosa. Colocamos nosso discurso em prática inovando para oferecer o melhor e proporcionar não apenas praticidade, mas momentos especiais para quem ama o que faz. \n Propetz, amor por pet, paixão por inovar. ",
+      "blockClass": "text-institucional"
+    }
+  }
+
+}
