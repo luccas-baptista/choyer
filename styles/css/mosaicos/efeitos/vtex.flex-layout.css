@@ -10,7 +10,7 @@
   position: absolute;
   left: 0;
   top: 0;
-  background-image: url(assets/imgs/mosaico-choyer/banner-intense-blanc-normal.png);
+  background-image: url(assets/imgs/mosaico-choyer/Intense_Blanc-chamado.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 
@@ -37,7 +37,7 @@
   position: absolute;
   left: 0;
   top: 0px;
-  background-image: url(assets/imgs/mosaico-choyer/banner-macadamia-normal.png);
+  background-image: url(assets/imgs/mosaico-choyer/Macadamia_Therapy-chamado.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 
@@ -59,7 +59,7 @@
   position: absolute;
   left: 0;
   top: 0;
-  background-image: url(assets/imgs/mosaico-choyer/banner-black-normal.png);
+  background-image: url(assets/imgs/mosaico-choyer/Pro_Black-chamado.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 
@@ -75,7 +75,7 @@
   position: absolute;
   left: 0;
   top: 0px;
-  background-image: url(assets/imgs/mosaico-choyer/banner-magnific.png);
+  background-image: url(assets/imgs/mosaico-choyer/Magnific-chamado.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 
@@ -96,7 +96,14 @@
   height: 100%;
 }
 
+.flex-row--mosaico-mobile-primeiro {
+  display: none;
+}
+
 @media (max-width: 991px) {
+  .flex-row--mosaico-mobile-primeiro {
+    display: block;
+  }
   .flexCol--mosaico-right-wrapper .flexRow--linha1-topo, .flexRow--linha2-bottom {
     text-align: center;
   }

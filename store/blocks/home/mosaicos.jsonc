@@ -204,6 +204,70 @@
       }
     },
 
+    "experimental__visibility-layout#mosaico-meiomobile": {
+      "title": "Mosaico Meio - Mobile",
+      "children": [
+        "flex-layout.row#mosaico-mobile"
+      ],
+      "props": {
+        "blockClass": "mosaico-mobile-primeiro"
+      }
+    },
+
+    "flex-layout.row#mosaico-mobile": {
+      "children": [
+        "flex-layout.col#imgmobile1", "flex-layout.col#imgmobile2","flex-layout.col#imgmobile3","flex-layout.col#imgmobile4"
+      ]
+    },
+
+    "flex-layout.col#imgmobile1": {
+      "children": [
+        "image#mob1"
+      ]
+    },
+
+    "flex-layout.col#imgmobile2": {
+      "children": [
+        "image#mob2"
+      ]
+    },
+
+    "flex-layout.col#imgmobile3": {
+      "children": [
+        "image#mob3"
+      ]
+    },
+
+    "flex-layout.col#imgmobile4": {
+      "children": [
+        "image#mob4"
+      ]
+    },
+
+    "image#mob1": {
+      "props": {
+        "src": "assets/imgs/mosaico-choyer/mobile/INTENSE_BLANC_MOBILE.jpg"
+      }
+    },
+
+    "image#mob2": {
+      "props": {
+        "src": "assets/imgs/mosaico-choyer/mobile/MACADAMIA_THERAPY_MOBILE.jpg"
+      }
+    },
+
+    "image#mob3": {
+      "props": {
+        "src": "assets/imgs/mosaico-choyer/mobile/MAGNIFIC_MOBILE.jpg"
+      }
+    },
+
+    "image#mob4": {
+      "props": {
+        "src": "assets/imgs/mosaico-choyer/mobile/PRO_BLACK_MOBILE.jpg"
+      }
+    },
+
 
 
   "experimental__visibility-layout#blog-desk": {
