@@ -96,12 +96,29 @@
   height: 100%;
 }
 
-.flex-row--mosaico-mobile-primeiro {
+.flexRow--mosaico-mobile-primeiro {
   display: none;
 }
 
 @media (max-width: 991px) {
-  .flex-row--mosaico-mobile-primeiro {
+  .flexCol--mosaico-right-wrapper .flexColChild--mosaico-right-wrapper:last-child::after,
+  .flexCol--mosaico-right-wrapper .flexColChild--mosaico-right-wrapper:first-child::after,
+  .flexCol--imagem-mosaico-left .flexColChild--imagem-mosaico-left:last-child::after,
+  .flexCol--imagem-mosaico-left .flexColChild--imagem-mosaico-left:first-child::after,
+  .flexCol--mosaico-principal-right .flexColChild--mosaico-principal-right:last-child::after,
+  .flexCol--mosaico-principal-right .flexColChild--mosaico-principal-right:first-child::after,
+  .flexCol--mosaico-principal-left .flexColChild--mosaico-principal-left::after,
+  .flexRow--mosaico-meio-wrapper  {
+    display: none;
+  }
+
+  .flexColChild--imagem-mosaico-left :global(.vtex-store-components-3-x-imageElement),
+  .flexColChild--mosaico-right-wrapper :global(.vtex-store-components-3-x-imageElement) {
+    height: auto;
+    width: 100%;
+  }
+
+  .flexRow--mosaico-mobile-primeiro {
     display: block;
   }
   .flexCol--mosaico-right-wrapper .flexRow--linha1-topo, .flexRow--linha2-bottom {
@@ -112,23 +129,6 @@
   }
   .flexCol--imagem-mosaico-left .flexColChild--imagem-mosaico-left:last-child {
     margin-bottom: 4px;
-  }
-}
-@media (max-width: 991px) {
-  .flexCol--mosaico-right-wrapper .flexColChild--mosaico-right-wrapper:last-child::after,
-  .flexCol--mosaico-right-wrapper .flexColChild--mosaico-right-wrapper:first-child::after,
-  .flexCol--imagem-mosaico-left .flexColChild--imagem-mosaico-left:last-child::after,
-  .flexCol--imagem-mosaico-left .flexColChild--imagem-mosaico-left:first-child::after,
-  .flexCol--mosaico-principal-right .flexColChild--mosaico-principal-right:last-child::after,
-  .flexCol--mosaico-principal-right .flexColChild--mosaico-principal-right:first-child::after,
-  .flexCol--mosaico-principal-left .flexColChild--mosaico-principal-left::after {
-    display: none;
-  }
-
-  .flexColChild--imagem-mosaico-left :global(.vtex-store-components-3-x-imageElement),
-  .flexColChild--mosaico-right-wrapper :global(.vtex-store-components-3-x-imageElement) {
-    height: auto;
-    width: 100%;
   }
 
 

@@ -208,21 +208,26 @@
       "title": "Mosaico Meio - Mobile",
       "children": [
         "flex-layout.row#mosaico-mobile"
-      ],
+      ]
+    },
+
+    "flex-layout.row#mosaico-mobile": {
+      "children": [
+        "flex-layout.col#imgmobile1", "flex-layout.col#imgmobile4", "flex-layout.col#imgmobile2","flex-layout.col#imgmobile3"],
       "props": {
         "blockClass": "mosaico-mobile-primeiro"
       }
     },
 
-    "flex-layout.row#mosaico-mobile": {
-      "children": [
-        "flex-layout.col#imgmobile1", "flex-layout.col#imgmobile2","flex-layout.col#imgmobile3","flex-layout.col#imgmobile4"
-      ]
-    },
-
     "flex-layout.col#imgmobile1": {
       "children": [
         "image#mob1"
+      ]
+    },
+
+    "flex-layout.col#imgmobile4": {
+      "children": [
+        "image#mob4"
       ]
     },
 
@@ -238,33 +243,41 @@
       ]
     },
 
-    "flex-layout.col#imgmobile4": {
-      "children": [
-        "image#mob4"
-      ]
-    },
+
 
     "image#mob1": {
       "props": {
-        "src": "assets/imgs/mosaico-choyer/mobile/INTENSE_BLANC_MOBILE.jpg"
+        "src": "assets/imgs/mosaico-choyer/mobile/INTENSE_BLANC_MOBILE.jpg",
+        "link": {
+          "url": "/shampoo-pet-matizador-25l-choyer/p"
+        }
       }
     },
 
     "image#mob2": {
       "props": {
-        "src": "assets/imgs/mosaico-choyer/mobile/MACADAMIA_THERAPY_MOBILE.jpg"
+        "src": "assets/imgs/mosaico-choyer/mobile/MACADAMIA_THERAPY_MOBILE.jpg",
+        "link": {
+          "url": "/condicionador-pet-reconstrucao-25l-choyer/p"
+        }
       }
     },
 
     "image#mob3": {
       "props": {
-        "src": "assets/imgs/mosaico-choyer/mobile/MAGNIFIC_MOBILE.jpg"
+        "src": "assets/imgs/mosaico-choyer/mobile/MAGNIFIC_MOBILE.jpg",
+        "link": {
+          "url": "/condicionador-pet-reconstrucao-25l-choyer/p"
+        }
       }
     },
 
     "image#mob4": {
       "props": {
-        "src": "assets/imgs/mosaico-choyer/mobile/PRO_BLACK_MOBILE.jpg"
+        "src": "assets/imgs/mosaico-choyer/mobile/PRO_BLACK_MOBILE.jpg",
+        "link": {
+          "url": "/shampoo-pet-pelos-escuros-25l-choyer/p"
+        }
       }
     },
 
