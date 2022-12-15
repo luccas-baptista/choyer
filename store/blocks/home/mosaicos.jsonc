@@ -160,7 +160,7 @@
 
     "image#img-mosaico-left-modelo2": {
       "props": {
-        "src": "assets/imgs/mosaico-choyer/hover/banner-intense-blanc-hover-novo.png",
+        "src": "assets/imgs/mosaico-choyer/Intense_Blanc-chamado.png",
         "blockClass": "pop-efeito",
         "link": {
           "url": "/shampoo-pet-matizador-25l-choyer/p"
@@ -169,7 +169,7 @@
     },
     "image#img-mosaico-left2-modelo2": {
       "props": {
-        "src": "assets/imgs/mosaico-choyer/hover/banner-macadamia-hover-novo.png",
+        "src": "assets/imgs/mosaico-choyer/Macadamia_Therapy-chamado.jpg",
         "link": {
           "url": "/condicionador-pet-reconstrucao-25l-choyer/p"
         }
@@ -188,7 +188,7 @@
 
     "image#img-mosaico-right-modelo2": {
       "props": {
-        "src": "assets/imgs/mosaico-choyer/hover/banner-black-hover-novo.png",
+        "src": "assets/imgs/mosaico-choyer/Pro_Black-chamado.png",
         "link": {
           "url": "/condicionador-pet-reconstrucao-25l-choyer/p"
         }
@@ -196,7 +196,7 @@
     },
     "image#img-mosaico-right2-modelo2": {
       "props": {
-        "src": "assets/imgs/mosaico-choyer/hover/banner-magnific-hover-novo.png",
+        "src": "assets/imgs/mosaico-choyer/Magnific-chamado.jpg",
         "blockClass": "ultimoimg",
         "link": {
           "url": "/shampoo-pet-pelos-escuros-25l-choyer/p"

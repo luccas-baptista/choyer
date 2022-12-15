@@ -13,7 +13,7 @@
   background-image: url(assets/imgs/mosaico-choyer/Intense_Blanc-chamado.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
-
+  display: none;
 }
 
 .flexCol--imagem-mosaico-left .flexColChild--imagem-mosaico-left:last-child {
@@ -40,7 +40,7 @@
   background-image: url(assets/imgs/mosaico-choyer/Macadamia_Therapy-chamado.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
-
+  display: none;
 }
 
 .flexCol--mosaico-right-wrapper .flexColChild--mosaico-right-wrapper:last-child {
@@ -62,7 +62,7 @@
   background-image: url(assets/imgs/mosaico-choyer/Pro_Black-chamado.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
-
+  display: none;
 }
 
 .flexCol--mosaico-right-wrapper .flexColChild--mosaico-right-wrapper:first-child:hover::after {
@@ -78,7 +78,7 @@
   background-image: url(assets/imgs/mosaico-choyer/Magnific-chamado.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
-
+  display: none;
 }
 .flexCol--mosaico-right-wrapper .flexColChild--mosaico-right-wrapper:last-child:hover::after {
   visibility: hidden;
