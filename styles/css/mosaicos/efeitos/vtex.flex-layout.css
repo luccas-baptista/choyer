@@ -108,7 +108,7 @@
   .flexCol--mosaico-principal-right .flexColChild--mosaico-principal-right:last-child::after,
   .flexCol--mosaico-principal-right .flexColChild--mosaico-principal-right:first-child::after,
   .flexCol--mosaico-principal-left .flexColChild--mosaico-principal-left::after,
-  .flexRow--mosaico-meio-wrapper  {
+  .flexRow--mosaico-meio-modelo2  {
     display: none;
   }
 

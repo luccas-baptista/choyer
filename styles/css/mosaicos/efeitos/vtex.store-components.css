@@ -4,3 +4,6 @@
 .imageElement--semefeito {
   height: 100%;
 }
+:global(.vtex-flex-layout-0-x-flexCol--imagem-mosaico-maquina) .imageElement--semefeito {
+  height: auto;
+}
