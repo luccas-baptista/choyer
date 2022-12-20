@@ -51,71 +51,13 @@ const Distribuidores = () => {
                   <h3>Fortaleza</h3>
                 </div>
                 <div className="nome-loja">
-                  <h4>Braspet Equipamentos</h4>
+                  <h4>Argos Distribuidora</h4>
                 </div>
                 <div className="endereco-loja">
                   <p>Rua C, n. 900 - Parque Montenegro I</p>
                 </div>
                 <div className="telefone-loja">
                   <p>(85) 98889-1007</p>
-                </div>
-              </li>
-
-            </ul>
-          </div>
-        </div>
-
-
-        {/* DISTRITO FEDERAL */}
-        <div className="estado-wrapper" data-state="DF">
-          <div className="estado-title">
-            <h2>Distrito Federal</h2>
-          </div>
-          <div className="estado-lojas">
-            <ul>
-
-              <li className="card-loja">
-                <div className="cidade-loja">
-                  <h3>Brasília</h3>
-                </div>
-                <div className="nome-loja">
-                  <h4>Braspet Equipamentos</h4>
-                </div>
-                <div className="endereco-loja">
-                  <p>R. Qne 18, 40, Loja 6, Bairro Taguatinga Norte</p>
-                </div>
-                <div className="telefone-loja">
-                  <p>(61) 8517-0622</p>
-                </div>
-              </li>
-
-              <li className="card-loja">
-                <div className="cidade-loja">
-                  <h3>Brasília</h3>
-                </div>
-                <div className="nome-loja">
-                  <h4>Império Pet</h4>
-                </div>
-                <div className="endereco-loja">
-                  <p>Colônia Agrícola 26 de Setembro - R. 1 CH 3A, Taguatinga</p>
-                </div>
-                <div className="telefone-loja">
-                  <p>(61) 99832-3880</p>
-                </div>
-              </li>
-
-              <li className="card-loja">
-                <div className="cidade-loja">
-                  <h3>Brasília</h3>
-                </div>
-                <div className="nome-loja">
-                  <h4>Petstop Distribuidora</h4>
-                </div>
-                <div className="endereco-loja">
-                  <p>Qd. CLN 105, 17, Bloco B, Bairro Ada Norte</p>
-                </div>
-                <div className="telefone-loja">
-                  <p>(61) 98450-2807</p>
                 </div>
               </li>
 
@@ -199,7 +141,7 @@ const Distribuidores = () => {
                   <h4>Vetmix Pet</h4>
                 </div>
                 <div className="endereco-loja">
-                  <p>Rua Padre Eustáquio, n. 2723 - Bairro Padre Eustáquio</p>
+                  <p>Rua Padre Eustáquio, n. 272 - Bairro Padre Eustáquio</p>
                 </div>
                 <div className="telefone-loja">
                   <p>(31) 3273-6679</p>
@@ -315,10 +257,37 @@ const Distribuidores = () => {
           </div>
         </div>
 
+        {/* RIO GRANDE DO SUL */}
+        <div className="estado-wrapper" data-state="RS">
+          <div className="estado-title">
+            <h2>Rio Grande do Sul</h2>
+          </div>
+          <div className="estado-lojas">
+            <ul>
+
+              <li className="card-loja">
+                <div className="cidade-loja">
+                  <h3>Caxias do Sul</h3>
+                </div>
+                <div className="nome-loja">
+                  <h4>Pet Partner</h4>
+                </div>
+                <div className="endereco-loja">
+                  <p>Rua Ludovico Cavinato, n. 975 - Bairro Santa Catarina</p>
+                </div>
+                <div className="telefone-loja">
+                  <p>(54) 98438-6134</p>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+
         {/* RONDÔNIA */}
         <div className="estado-wrapper" data-state="RO">
           <div className="estado-title">
-            <h2>Rondônia</h2>
+            <h2>Rondônia/Acre</h2>
           </div>
           <div className="estado-lojas">
             <ul>
@@ -407,7 +376,7 @@ const Distribuidores = () => {
 
               <li className="card-loja">
                 <div className="cidade-loja">
-                  <h3>Aracaju</h3>
+                  <h3>Aracajú</h3>
                 </div>
                 <div className="nome-loja">
                   <h4>Super Fofos</h4>
@@ -416,7 +385,7 @@ const Distribuidores = () => {
                   <p>R. Luiz Chagas, 96, Atalaia</p>
                 </div>
                 <div className="telefone-loja">
-                  <p>(77) 99854-3561</p>
+                  <p>(79) 99854-3561</p>
                 </div>
               </li>
 
