@@ -434,12 +434,6 @@
   border: 1px solid #000;
 }
 
-@media (min-width: 1200px) {
-  .flexRow--wrapper__categ-info {
-    margin: 64px 14px;
-  }
-}
-
 @media only screen and (max-width: 1024px) and (min-width: 500px) {
   .flexRowContent--logo__mobile {
     background-color: #cfa22b;

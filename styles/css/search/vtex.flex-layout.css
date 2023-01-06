@@ -88,6 +88,12 @@
   width: 230px!important;
 }
 
+@media (min-width: 1200px) {
+  .flexRow--wrapper__categ-info, .flexRow--wrapper__seo-info {
+    margin: 0px 14px;
+  }
+}
+
 @media screen and (max-width: 991px){
   .flexRowContent--buttons_buy{
       flex-direction: column;
