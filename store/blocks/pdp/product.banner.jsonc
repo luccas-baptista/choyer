@@ -1,32 +1,36 @@
 {
-    "condition-layout.product#banner": {
-        "props": {
-            "conditions": [
-                {
-                    "subject": "categoryId",
-                    "arguments": {
-                        "id": "4"
-                    }
-                }
-            ],
-            "Then": "flex-layout.row#product-banner"
-        }
-    },
-    "flex-layout.row#product-banner": {
-        "props": {
-            "marginTop": 7
-        },
-        "children": [
-            "image#product-banner"
-        ]
-    },
-    "image#product-banner": {
-        "props": {
-            "src": "assets/imgs/pdp/Display_topo_produto.png",
-            "alt": "Argan Liss",
-            "link": {
-                "url": "/shampoo-argan-liss-choyer---25-l---uso-vet/p"
-            }
-        }
-    }
+  "condition-layout.product#banner": {
+      "props": {
+          "conditions": [
+              {
+                  "subject": "categoryId",
+                  "arguments": {
+                      "id": "4"
+                  }
+              },
+              {
+                "subject": "isProductAvailable"
+              }
+          ],
+          "Then": "flex-layout.row#product-banner"
+      }
+  },
+  "flex-layout.row#product-banner": {
+      "props": {
+          "marginTop": 7
+      },
+      "children": [
+          "image#product-banner"
+      ]
+  },
+  "image#product-banner": {
+      "props": {
+          "src": "assets/imgs/pdp/Display_topo_produto.png",
+          "alt": "Argan Liss",
+          "link": {
+              "url": "/shampoo-pet-hidratacao-argan-25l-choyer/p"
+          },
+          "blockClass": "banner-produto"
+      }
+  }
 }
