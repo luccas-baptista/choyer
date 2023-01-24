@@ -67,7 +67,7 @@ const MinimumFreightValue = ({
       {differenceBetwenValues === freeShippingAmount ? (
         <div className={styles.text0}>
           Frete grátis a partir de:
-          <FormattedCurrency value={Math.max(0, differenceBetwenValues)} />!
+          <FormattedCurrency value={Math.max(0, differenceBetwenValues)} />! <a href="/regras-de-promocao">Consulte</a>
         </div>
       ) : (
         <>
