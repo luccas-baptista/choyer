@@ -66,7 +66,7 @@ const MinimumFreightValue = ({
     <div className={styles.freigthScaleContainer}>
       {differenceBetwenValues === freeShippingAmount ? (
         <div className={styles.text0}>
-          Temos frete grátis de:
+          Frete grátis a partir de:
           <FormattedCurrency value={Math.max(0, differenceBetwenValues)} />!
         </div>
       ) : (
@@ -79,7 +79,7 @@ const MinimumFreightValue = ({
                 value={Math.max(0, differenceBetwenValues)}
               />
 
-              <span className={styles.text3}> para ganhar <strong>frete grátis!</strong> <a href="/regras-de-promocao">Consulte</a></span>
+              <span className={styles.text3}> para <strong>frete grátis!</strong> <a href="/regras-de-promocao">Consulte</a></span>
             </p>
           ) : (
             <p className={`${styles.sliderText} ${styles.text2}`}>
@@ -92,7 +92,7 @@ const MinimumFreightValue = ({
               >
                 <path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
               </svg>
-              <span>Parabéns! Você ganhou <strong>frete grátis!</strong> <a href="/regras-de-promocao">Consulte</a></span>
+              <span>Compra elegível para <strong>frete grátis!</strong> <a href="/regras-de-promocao">Consulte</a></span>
             </p>
           )}
 
