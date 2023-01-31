@@ -1,24 +1,29 @@
 :global(.main-title-distribuidores h1) {
-  background: #805916;
-  border-radius: 31px;
-  margin-top: 4rem;
-  justify-content: center;
-  width: auto;
-  padding: 2rem 4rem;
-  margin-bottom: 3rem;
-  color: #fff;
-  font-size: 27px;
-  text-transform: uppercase;
-  font-weight: 700;
-  text-align: center;
+  background: #00AAA6 0% 0% no-repeat padding-box;
+   border-radius: 31px;
+   margin-top: 4rem;
+   justify-content: center;
+   width: auto;
+   padding: 2rem 4rem;
+   margin-bottom: 3rem;
+   color: #fff;
+   font-size: 27px;
+   text-transform: uppercase;
+   font-weight: 700;
+   text-align: center;
 }
 
 :global(.estado-wrapper) {
   margin-bottom: 4rem;
+  padding-left: 0;
+}
+
+:global(.estado-title) {
+  list-style-type: none;
 }
 
 :global(.estado-title h2) {
-  color: #805916;
+  color: #00aaa6;
   font-size: 34px;
   border-bottom: 2px solid;
   padding-bottom: 3px;
@@ -42,7 +47,7 @@
 }
 
 :global(.cidade-loja h3) {
-  background-color: #805916;
+  background-color: #00aaa6;
   color: #fff;
   padding: 10px 23px;
   width: fit-content;
