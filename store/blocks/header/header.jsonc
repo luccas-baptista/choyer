@@ -53,9 +53,34 @@
       "search-bar",
       "flex-layout.col#spacer",
       "login",
+      "flex-layout.col#wishlist-menu-wrapper",
       "minicart.v2"
     ]
   },
+
+  "flex-layout.col#wishlist-menu-wrapper": {
+    "children": [
+      "rich-text#wishlist-menu-icon", "rich-text#wishlist-menu-text"
+    ],
+    "props": {
+      "blockClass": "wishlist-menu-wrapper"
+    }
+  },
+
+  "rich-text#wishlist-menu-icon": {
+    "props":{
+      "text": "[![Lista de Desejos](/assets/vtex/assets-builder/choyer.store-theme-choyer/1.0.18/imgs/categoria/heart___7a8e060….png)](/wishlist)",
+      "blockClass": "wishlist-icon-menu"
+    }
+  },
+
+  "rich-text#wishlist-menu-text": {
+    "props":{
+      "text": "[Lista de **Desejos**](/wishlist)",
+      "blockClass": "wishlist-text-menu"
+    }
+  },
+
   //tentativa sticky novo
   "sticky-layout#5-desktop": {
     "props": {
@@ -178,6 +203,7 @@
       "category-menu#mob",
       "search-bar",
       "login#login-mobile",
+      "flex-layout.col#wishlist-menu-wrapper-mobile",
       "minicart.v2"
     ],
     "props": {
@@ -188,6 +214,21 @@
     }
   },
 
+  "flex-layout.col#wishlist-menu-wrapper-mobile": {
+    "children": [
+      "rich-text#wishlist-menu-icon-mobile"
+    ],
+    "props": {
+      "blockClass": "wishlist-menu-wrapper"
+    }
+  },
+
+  "rich-text#wishlist-menu-icon-mobile": {
+    "props":{
+      "text": "[![Lista de Desejos](/assets/vtex/assets-builder/choyer.store-theme-choyer/1.0.18/imgs/categoria/heart___7a8e060….png)](/wishlist)",
+      "blockClass": "wishlist-icon-menu"
+    }
+  },
 
   "category-menu#mob":{
     "props":{
