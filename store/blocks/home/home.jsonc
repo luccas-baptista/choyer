@@ -1,7 +1,7 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#demo",
+      "experimental__visibility-layout#modelo3",
       "experimental__visibility-layout#deals",
       "flex-layout.row#dealsmob",
       "experimental__visibility-layout#mosaico-meio-modelo2",
@@ -24,37 +24,57 @@
     ]
   },
 
-  "list-context.image-list#demo": {
-    "title": "Slider Principal",
-    "children": ["slider-layout#demo-images"],
-    "props": {
-      "height": 720,
-      "images": [
-        {
-          "image": "assets/imgs/slider/Banner_Topo_V2.png",
-          "mobileImage": "assets/imgs/slider/Banner_Topo_V2.png"
-        },
-        {
-          "image": "assets/imgs/slider/Banner_Topo_V2.png",
-          "mobileImage": "assets/imgs/slider/Banner_Topo_V2.png"
-        }
-      ]
-    }
+  "experimental__visibility-layout#modelo3": {
+    "title": "Banner Topo Modelo 3",
+    "children": ["flex-layout.row#slider-m3"]
   },
-  "slider-layout#demo-images": {
+
+  "flex-layout.row#slider-m3": {
+    "children": [
+      "flex-layout.col#slider-m3-col-left",
+      "flex-layout.col#slider-m3-col-right"
+    ],
     "props": {
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
-      "arrowSize": 12,
-      "infinite": true,
-      "showNavigationArrows": "desktopOnly",
-      "blockClass": ["carousel", "banner-principal"]
+      "blockClass": "mosaico-topo-m3"
     }
   },
 
+  "flex-layout.col#slider-m3-col-left": {
+    "children": [
+      "image#m3-1"
+    ],
+    "props": {
+      "blockClass": "mosaico-principal-left"
+    }
+  },
+
+  "flex-layout.col#slider-m3-col-right": {
+    "children": [
+      "image#m3-2",
+      "image#m3-3"
+    ],
+    "props": {
+      "blockClass": "mosaico-principal-right"
+    }
+  },
+
+  "image#m3-1": {
+    "props": {
+      "src": "assets/imgs/mosaico-choyer/Pre-lancamento-1.png"
+    }
+  },
+
+  "image#m3-2": {
+    "props": {
+      "src": "assets/imgs/mosaico-choyer/Pre-lancamento-3.png"
+    }
+  },
+
+  "image#m3-3": {
+    "props": {
+      "src": "assets/imgs/mosaico-choyer/Pre-lancamento-2.png"
+    }
+  },
 
   "flex-layout.row#wrapper-title-tabs": {
     "children": [
@@ -261,8 +281,6 @@
       "arrowSize": 12
     }
   },
-
-
 
   "flex-layout.row#newsletter": {
     "children": [
