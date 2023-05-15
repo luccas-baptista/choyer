@@ -1,16 +1,54 @@
 {
+  "experimental__visibility-layout#top-bar": {
+    "title": "Benefícios - Topo",
+    "children": ["flex-layout.row#top-bar"]
+  },
 
   "flex-layout.row#top-bar": {
-    "children": [
-      "flex-layout.col#frete-bar",
-      "flex-layout.col#parcelamento-bar",
-      "flex-layout.col#rastreio-bar"
-    ],
+    "children": ["slider-layout#topbar-desk"],
     "props": {
       "blockClass": "wrapper-topbar"
     }
 
   },
+
+  "slider-layout#topbar-desk": {
+    "children": [
+      "experimental__visibility-layout#col-frete-bar",
+      "experimental__visibility-layout#col-parcelamento-bar",
+      "experimental__visibility-layout#col-rastreio-bar"
+    ],
+    "props": {
+      "blockClass": "wrapper-topbar",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": false
+      },
+
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "arrowSize": 12,
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never"
+    }
+  },
+
+  "experimental__visibility-layout#col-frete-bar": {
+    "children":["flex-layout.col#frete-bar"]
+  },
+
+  "experimental__visibility-layout#col-parcelamento-bar": {
+    "children":["flex-layout.col#parcelamento-bar"]
+  },
+
+  "experimental__visibility-layout#col-rastreio-bar": {
+    "children":["flex-layout.col#rastreio-bar"]
+  },
+
   "flex-layout.col#frete-bar": {
     "children": [
       "rich-text#text-frete-gratis"
